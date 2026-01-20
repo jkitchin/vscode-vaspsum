@@ -2,12 +2,12 @@
   "name": "vaspsum",
   "displayName": "VASPsum",
   "description": "VASP calculation summary, structure preview, and syntax highlighting for all VASP input/output files including INCAR, POSCAR, CONTCAR, CHGCAR, DOSCAR, XDATCAR, LOCPOT, ELFCAR, PARCHG, PROCAR, OSZICAR, EIGENVAL, IBZKPT, KPOINTS, OUTCAR and more",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "publisher": "vasp-ase",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jkitchin/vscode-vasp-syntax"
+    "url": "https://github.com/jkitchin/vscode-vaspsum"
   },
   "engines": {
     "vscode": "^1.74.0"

@@ -131,42 +131,27 @@ For geometry optimizations (multiple ionic steps):
 
 ## Installation
 
-### From VS Code Marketplace
+### From Release (Recommended)
 
-Search for "VASP Syntax" in the Extensions view (Ctrl+Shift+X).
+1. Download the latest `.vsix` file from [Releases](https://github.com/jkitchin/vscode-vaspsum/releases/latest)
+2. Install in VS Code:
+   ```bash
+   code --install-extension vaspsum-1.1.0.vsix
+   ```
 
-### From Package
+Or install directly via command line:
+```bash
+curl -LO https://github.com/jkitchin/vscode-vaspsum/releases/download/v1.1.0/vaspsum-1.1.0.vsix
+code --install-extension vaspsum-1.1.0.vsix
+```
+
+### From Source
 
 ```bash
-cd vscode-vasp-syntax
+git clone https://github.com/jkitchin/vscode-vaspsum.git
+cd vscode-vaspsum
 make install
 ```
-
-### Development Mode
-
-```bash
-cd vscode-vasp-syntax
-make install-dev
-```
-
-### Manual Installation
-
-1. Build the extension:
-   ```bash
-   npm install
-   npm run compile
-   ```
-
-2. Package as VSIX:
-   ```bash
-   npm install -g @vscode/vsce
-   vsce package
-   ```
-
-3. Install in VS Code:
-   ```bash
-   code --install-extension vasp-syntax-1.0.0.vsix
-   ```
 
 ## Usage
 
